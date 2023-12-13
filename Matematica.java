@@ -10,7 +10,7 @@ public class Matematica {
 
     public double raport(int numarator, int numitor) {
         if (numitor == 0) {
-            throw new IllegalArgumentException;
+            throw new IllegalArgumentException();
         }
         return (double) numarator / numitor;
     }
