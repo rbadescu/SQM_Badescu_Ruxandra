@@ -5,10 +5,10 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-public class MatematicaTests {
+public class MatematicaTests3 {
     Matematica mate;		
 	
-	@Test
+    @Test
     public void testNumerePareCorect() {
         List<Integer> lista = mate.nNumerePare(8);
         for (Integer element : lista) {
