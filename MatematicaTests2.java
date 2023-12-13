@@ -5,11 +5,10 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-public class MatematicaTests {
+public class MatematicaTests2 {
     Matematica mate;	
 	
-	
-	@Test(expected = IllegalArgumentException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void testRaportExceptieJUnit4() {
         mate.raport(45, 0);
     }
