@@ -7,6 +7,11 @@ import org.junit.Test;
 
 public class MatematicaTests2 {
     Matematica mate;	
+
+    @Before
+    public void setUp() {
+        mate = new Matematica();
+    }
 	
     @Test(expected = IllegalArgumentException.class)
     public void testRaportExceptieJUnit4() {
