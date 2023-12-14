@@ -6,10 +6,15 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class MatematicaTests3 {
-    Matematica mate;		
+    Matematica mate;	
+
+    @Before
+    public void setUp() {
+        mate = new Matematica();
+    }
 	
     @Test
-    public void testNumerePareCorect() {
+    public void testNNumerePareCorect() {
         List<Integer> lista = mate.nNumerePare(8);
         for (Integer element : lista) {
             assertTrue(mate.estePar(element));
